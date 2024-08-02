@@ -5,7 +5,7 @@ const orderController = require('../controllers/orderController')
 
 /* GET stores*/
 router.get('/', storeController.getAllstores);
-router.get('/:id/item', storeController.getStoreById);
+router.get('/:id/:item', storeController.getStoreById);
 
 
 /* post orders */ 
