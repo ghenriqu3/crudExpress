@@ -12,6 +12,8 @@ const getStore = async (id) => {
     return result
 }
 
+
+
 module.exports ={
     getAll,
     getStore,

@@ -4,8 +4,9 @@ const databaseConnection = async () => {
     return await mysql.createConnection({
         host: 'localhost',
         user: 'root',
-        password: '1234',
+        password: 'root',
         database: 'ifome',
+        port: '3307'
     })
     
 }
